@@ -468,8 +468,9 @@
   }
 
   .guest-card {
+    margin-top: 48px;
     width: 100%;
-    max-width: 540px;
+    max-width: unset;
   }
 
   .guest-card__desc {
@@ -487,10 +488,6 @@
   .accordion__list {
     gap: 30px;
   }
-
-  .ui-accordion-header:last-child {
-    min-height: 48px;
-  } 
 
   /* playlists */
   .playlists__left-wrap {
@@ -1099,33 +1096,16 @@
     white-space: break-spaces;
   }
 
-  #accordion-last-elem {
-    margin-bottom: 30px;
-  }
-
   .ui-accordion-content {
     padding: 20px 0;
   }
 
-  .ui-accordion-content {
-    /* width: 256px; */
-  }
-
   .accordion__list {
     max-height: 475px;
-    /* width: 253px; */
   }
 
-  /* .accordion__item:not(:nth-child(5n+1)) {
-    margin: unset;
-  }
-
-  .accordion__item:not(:nth-child(8n+1)) {
-    margin-top: 27px;
-  } */
-
-  .ui-accordion-header:last-child {
-    height: 31px; 
+  .guest-card {
+    margin-top: 30px;
   }
 
   .guest-card__picture img {

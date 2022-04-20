@@ -76,11 +76,14 @@ function createPlayer(count, iterator) {
     newPlayer.querySelector("#player__img-fallback").src = podcast.jpg_url;
     newPlayer.querySelector("#player__img-fallback").srcset =
       podcast.jpg_url_2x;
+    newPlayer.querySelector("#player__img-fallback").alt = `Обложка подкаста ${podcast.name}`
     newPlayer.querySelector("#player__img-mobile").srcset =
       podcast.jpg_url_small;
     newPlayer.querySelector(
       "#player__img-webp"
     ).srcset = `${podcast.webp_url}, ${podcast.webp_url_2x}`;
+    console.log(newPlayer);
+
     wrap.appendChild(newPlayer);
   }
 }
