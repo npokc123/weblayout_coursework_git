@@ -334,7 +334,7 @@
   .nav__open {
     position: absolute;
     display: block;
-    padding: 0 100px;
+    padding: 0 114px;
     width: 100%;
     max-width: unset;
     height: 400px;
@@ -770,9 +770,9 @@
 
   .header__player {
     width: 70px;
-    max-width: 107px;
     flex-direction: column;
     border: none;
+    justify-content: center;
     align-items: start;
   }
 
@@ -952,6 +952,7 @@
     font-size: 16px;
     line-height: 16px;
     color: var(--primary);
+    margin-top: 47px;
   }
 
   /* broadcast */
@@ -986,6 +987,7 @@
     width: 100%;
     height: 50px;
     object-fit: cover;
+    object-position: top;
   }
   
   .broadcast-card__body {
@@ -1059,7 +1061,6 @@
   }
 
   .guests__desc {
-    max-width: 256px;
     margin-bottom: 27px;
     font-size: 14px;
     line-height: 160%;
@@ -1127,14 +1128,9 @@
     height: 31px; 
   }
 
-  .guest-card {
-    /* width: 100%; */
-    max-width: 256px;
-  }
-
   .guest-card__picture img {
-    /* width: 100%; */
     height: 159px;
+    width: unset;
   }
 
   .guest-card__socials-item:not(:last-child) {
@@ -1351,10 +1347,6 @@
 
   .about {
     padding: 54px 0;
-  }
-
-  .about-form {
-    max-width: 256px;
   }
 
   .about__text {
