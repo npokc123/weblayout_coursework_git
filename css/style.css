@@ -270,6 +270,7 @@ link:active {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+  color: var(--black);
 }
 
 .header__bottom {
@@ -833,6 +834,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
   width: 160px;
   height: 40px;
   border-radius: 77px;
+  color: var(--black);
   border: 2px solid var(--black);
   font-style: normal;
   font-weight: 500;
