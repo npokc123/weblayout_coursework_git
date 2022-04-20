@@ -1241,12 +1241,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
   color: var(--white);
 }
 
-#accordion-last-elem {
-  display: block;
-  height: 0;
-  padding: 0;
-}
-
 .ui-state-focus {
   background-color: rgba(170, 157, 250, 0.3);
 }

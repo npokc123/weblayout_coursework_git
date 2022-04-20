@@ -14,13 +14,10 @@ function initBurger() {
       })
     }
     if (window.innerWidth > 468) {
-      console.log('window.innerWidth > 468');
       subNav.style.display = 'flex'
       subNavContainer.style.display = 'flex'
     }
     if (window.innerWidth <= 468 && menuBtn.getAttribute('aria-expanded') == 'true') {
-      console.log('1111111');
-      console.log(menuBtn.getAttribute('aria-expanded') == 'true');
       subNav.style.display = 'flex'
       subNavContainer.style.display = 'flex'
     }
@@ -58,7 +55,6 @@ function setBurger() {
 }
 
 let onResizeFunc = function(){
-  console.log('kkkkk');
   let timeOut;
   clearTimeout(timeOut);
   timeOut = setTimeout(initBurger, 100);
