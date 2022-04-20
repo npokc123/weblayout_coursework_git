@@ -1,0 +1,15 @@
+:root {
+  --white: #FFFFFF;
+  --primary: #6D31EE;
+  --primary_shade: #4F28A5;
+  --primary_light: #AA9DFA;
+  --light_color: #E6E8EC;
+  --text_gray: #A1A6B4;
+  --shade_gray: #D2D5DD;
+  --light_color_40: #E6E8EC;
+  --black: #121723;
+  --light_black: #292E39;
+  --red: #FF6F6F;
+  --promo_color: #F0D288;
+  --promo_color_shade: #BB973E;
+}
