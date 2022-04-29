@@ -211,6 +211,7 @@ link:active {
 /* Header */
 
 .header__container {
+  width: 100%;
   max-height: 60px;
   justify-content: space-between;
   align-items: center;
